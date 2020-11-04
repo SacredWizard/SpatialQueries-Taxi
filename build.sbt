@@ -1,19 +1,18 @@
 import sbt.Keys.{libraryDependencies, scalaVersion, version}
 
-
 lazy val root = (project in file(".")).
   settings(
     name := "SpatialQueries-Taxi",
 
     version := "0.1.0",
 
-    scalaVersion := "2.13.3",
+    scalaVersion := "2.11.12",
 
     organization := "org.datasyslab",
 
     publishMavenStyle := true,
 
-    mainClass := Some("cse512.SparkSQLExample")
+    mainClass := Some("spatialsqlqueries.SparkSQLExample")
   )
 
 libraryDependencies ++= Seq(
