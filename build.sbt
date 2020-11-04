@@ -6,13 +6,13 @@ lazy val root = (project in file(".")).
 
     version := "0.1.0",
 
-    scalaVersion := "2.11.12",
+    scalaVersion := "2.11.6",
 
     organization := "org.datasyslab",
 
     publishMavenStyle := true,
 
-    mainClass := Some("spatialsqlqueries.SparkSQLExample")
+    mainClass := Some("spatialqueriestaxi.SparkSQLExample")
   )
 
 libraryDependencies ++= Seq(
